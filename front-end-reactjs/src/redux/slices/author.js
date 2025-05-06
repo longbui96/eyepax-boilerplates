@@ -2,9 +2,9 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 const initialState = {
   data: {
-    author: "",
-    role: "",
-    phoneNumber: "",
+    author: "Long Bui",
+    role: "Full-stack Engineer",
+    phoneNumber: "(+84) 903 026 505",
   },
   status: "idle",
   error: null,
