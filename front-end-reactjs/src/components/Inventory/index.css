@@ -1,0 +1,10 @@
+.inventory .inventory-header,
+.inventory .inventory-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inventory .inventory-header > *,
+.inventory .inventory-row > * {
+  width: 200px;
+}

@@ -1,0 +1,10 @@
+.cart .cart-header,
+.cart .cart-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart .cart-header > *,
+.cart .cart-row > * {
+  width: 200px;
+}
